@@ -2,13 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> As valdau HTML!</title>
+    <title> <?php print 'As, ' . date('l') . ' ir PHP' ?> </title>
   </head>
   <body>
       
-      <h1><i>Edgaras</i> - HTML asas</h1>
+      <h1><i>Edgaras</i> - HTML <?php print 'ir PHP' ?> asas jau nuo <?php print date('Y') . ' metu' ?></h1>
       
-      <p>Moku kurti statini turini.</p>
+      <p>Viskas prasidejo <?php print date('F') . ' menesio, ' . date('d') . ' diena!' ?></p>
     
   </body>
 </html>
