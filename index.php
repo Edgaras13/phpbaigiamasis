@@ -1,2 +1,2 @@
 <?php
-print 'veikia!';
+print 'Veikia su GIT!';
