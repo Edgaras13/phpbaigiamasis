@@ -6,7 +6,7 @@
   </head>
   <body>
       
-      <h1><b><i>Vardas</i></b> - HTML asas/e</h1>
+      <h1><b><i>Edgaras</i></b> - HTML asas</h1>
       
       <p>Moku kurti statini turini.</p>
     
