@@ -1,15 +1,18 @@
+<?php //Funkcija nustato laiko zona ?>
+<?php date_default_timezone_set('Europe/Vilnius');?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> <?php print 'As, ' . date('l') . ' ir PHP' ?> </title>
+    <title> PHP lydes ir <?php print date('Y/m/d', strtotime('+1 day')) ?> </title>
   </head>
   <body>
-      
-      <h1><i>Edgaras</i> - HTML <?php print 'ir PHP' ?> asas jau nuo <?php print date('Y') . ' metu' ?></h1>
-      
-      <p>Viskas prasidejo <?php print date('F') . ' menesio, ' . date('d') . ' diena!' ?></p>
-    
+      <!-- Heading -->
+      <h1><i>Edgaras</i> - PHP su manim buvo ir  <?php date_default_timezone_set('Europe/Vilnius'); print date('H', strtotime('-1 hour')) . ' valanda!'?></h1>
+      <!-- Paragraph -->
+      <!--
+      <p><?php print date('Y', strtotime('+1 year')) ?> ne uz kalnu</p>
+      -->
   </body>
 </html>
 
