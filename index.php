@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-      
-      <?php $link = 'https://www.android.com/static/2016/img/share/andy-lg.png';
-            $href = 'https://www.google.com/';
-            for($i = 1; $i < 5;$i=$i+1){
-                print "<img src=" . $link . ">";
-                print "<a href=" . $href . "target=>Google</a>";
-            }
-            ?>
-      
-  </body>
-</html>
+<?php
+
+$mano_pinigai = 1000;
+$spent_per_month = 600;
+$earned_per_month = 800;
+$unknown_per_month = rand(50, 200);
+$months = 24;
+
+$wallet_forecast = $months * $earned_per_month - $months * ($spent_per_month + $unknown_per_month) + $mano_pinigai;
+
+print "Po " . $months . " menesiu(" . date('Y/m/d', strtotime('+' . $months . ' months')). ")" . ",tiketina turesiu " . $wallet_forecast . " pinigu";
