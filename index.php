@@ -1,11 +1,10 @@
 <?php
 
-$mano_pinigai = 1000;
-$spent_per_month = 600;
-$earned_per_month = 800;
-$unknown_per_month = rand(50, 200);
-$months = 24;
+$liepa_days = 31;
+$rugpjutis_days = 30;
+$rugsejis_days = 30;
+$spalis_days = date('d');
 
-$wallet_forecast = $months * $earned_per_month - $months * ($spent_per_month + $unknown_per_month) + $mano_pinigai;
+$x = $liepa_days + $rugpjutis_days + $rugsejis_days + $spalis_days;
 
-print "Po " . $months . " menesiu(" . date('Y/m/d', strtotime('+' . $months . ' months')). ")" . ",tiketina turesiu " . $wallet_forecast . " pinigu";
+print "Nuo Liepos pradzios iki siandien praejo " . $x . " dienu.";
