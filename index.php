@@ -10,7 +10,6 @@
       
       $sunny = rand(0,1);
       $rainy = rand(0,1);
-      $sunnyy = 'backgroung-color: orange;width: 100px;height:100px';
       
       
       if($sunny && $rainy){
