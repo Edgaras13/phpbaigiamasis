@@ -1,10 +1,32 @@
-<?php
-
-$liepa_days = 31;
-$rugpjutis_days = 30;
-$rugsejis_days = 30;
-$spalis_days = date('d');
-
-$x = $liepa_days + $rugpjutis_days + $rugsejis_days + $spalis_days;
-
-print "Nuo Liepos pradzios iki siandien praejo " . $x . " dienu.";
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      
+      <?php
+      
+      $sunny = rand(0,1);
+      $rainy = rand(0,1);
+      $sunnyy = 'backgroung-color: orange;width: 100px;height:100px';
+      
+      
+      if($sunny && $rainy){
+          print "<div style= \"background-color: grey;width: 100px;height:100px;\">Partly sunny</div>";
+      }
+      elseif ($sunny && !$rainy){
+          print "<div style= \"background-color: yellow;width: 100px;height:100px;\">Sunny</div>";
+      }
+      if (!$sunny && $rainy) {
+          print "<div style= \"background-color: blue;width: 100px;height:100px;\">Rainy</div>"; 
+      }
+      elseif (!$sunny && !$rainy){
+          print "<div style= \"background-color: orange;width: 100px;height:100px;\">Cloudy</div>";
+      }
+      
+      ?>
+    
+  </body>
+</html>
