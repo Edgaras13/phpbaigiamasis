@@ -1,9 +1,18 @@
-<?php
-
-$s = 'Desimt';
-$i = 20;
-$f = 20.23;
-$b = True;
-$n = null;
-
-print "String = $s , Integer = $i , Float = $f , Boolean = $b , Null = $n"; 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      
+      <?php $link = 'https://www.android.com/static/2016/img/share/andy-lg.png';
+            $href = 'https://www.google.com/';
+            for($i = 1; $i < 5;$i=$i+1){
+                print "<img src=" . $link . ">";
+                print "<a href=" . $href . "target=>Google</a>";
+            }
+            ?>
+      
+  </body>
+</html>
