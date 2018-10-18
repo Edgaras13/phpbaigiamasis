@@ -1,31 +1,22 @@
+<?php
+$distance = rand(100, 1000);
+$fuel_100km = 7.5;
+$fuel_price = 1.3;
+$fuel_used = $fuel_100km / 100 * $distance;
+$cost = $fuel_used * $fuel_price;
+$print = "Nuvaziavus $distance km, masina sunaudos $fuel_used l kuro. Kaina: $cost pinigu.";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-      
-      <?php
-      
-      $sunny = rand(0,1);
-      $rainy = rand(0,1);
-      
-      
-      if($sunny && $rainy){
-          print "<div style= \"background-color: grey;width: 100px;height:100px;\">Partly sunny</div>";
-      }
-      elseif ($sunny && !$rainy){
-          print "<div style= \"background-color: yellow;width: 100px;height:100px;\">Sunny</div>";
-      }
-      if (!$sunny && $rainy) {
-          print "<div style= \"background-color: blue;width: 100px;height:100px;\">Rainy</div>"; 
-      }
-      elseif (!$sunny && !$rainy){
-          print "<div style= \"background-color: orange;width: 100px;height:100px;\">Cloudy</div>";
-      }
-      
-      ?>
-    
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+
+        <h1><?php print $print; ?></h1>
+
+    </body>
 </html>
