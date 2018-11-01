@@ -3,7 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/schna/Desktop/www/index.php</file>
+            <file>file:/C:/Users/schna/Desktop/www/templates/pages/page-showcase.tpl.php</file>
+            <file>file:/C:/Users/schna/Desktop/www/controllers/showcase.php</file>
+            <file>file:/C:/Users/schna/Desktop/www/css/main.css</file>
         </group>
     </open-files>
 </project-private>

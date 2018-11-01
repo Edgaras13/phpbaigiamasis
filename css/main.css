@@ -1,0 +1,401 @@
+.nav {
+    border-bottom: 2px solid orange;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+.nav button {
+    background-color: black;
+    border: none;
+    margin: 0 50px;
+}
+.nav button a {
+    text-decoration: none;
+    color: orange;
+    font-size: 32px;
+}
+
+.home-page{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 900px;
+    background-size: 100vw 100vh;
+    background-image: url(https://wallpapercave.com/wp/wp2180131.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cv{
+    width: auto;
+    height: 900px;
+    background-size: 100vw 100vh;
+    background-image:url(https://download.hipwallpaper.com/desktop/1680/1050/74/35/9Kzm71.jpg);
+    color: white;
+    text-align: center;
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cv h1 {
+    margin-top: 0;
+}
+
+.showcase{
+    width: auto;
+    height: 900px;
+    background-size: 100vw 100vh;
+    background-image:url(https://download.hipwallpaper.com/desktop/1680/1050/74/35/9Kzm71.jpg);
+    color: white;
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    color: white;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.subtitle{
+    color: white;
+    margin-left: 100px;
+}
+
+.hands {
+    margin: 0 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#score {
+    font-size: 26px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+.win {
+    display: flex;
+    justify-content: center;
+    margin-top: -500px;
+    font-size: 72px;
+}
+
+#cards {
+    box-shadow: 1px 1px 5px orange;
+}
+
+.clubsA {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/ace_of_clubs.png");
+    background-size: cover;
+}
+.clubs2 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/2_of_clubs.png");
+    background-size: cover;
+}
+.clubs3 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/3_of_clubs.png");
+    background-size: cover;
+}
+.clubs4 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/4_of_clubs.png");
+    background-size: cover;
+}
+.clubs5 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/5_of_clubs.png");
+    background-size: cover;
+}
+.clubs6 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/6_of_clubs.png");
+    background-size: cover;
+}
+.clubs7 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/7_of_clubs.png");
+    background-size: cover;
+}
+.clubs8 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/8_of_clubs.png");
+    background-size: cover;
+}
+.clubs9 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/9_of_clubs.png");
+    background-size: cover;
+}
+.clubs10 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/10_of_clubs.png");
+    background-size: cover;
+}
+.clubsJ{
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/jack_of_clubs.png");
+    background-size: cover;
+}
+.clubsD {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/queen_of_clubs.png");
+    background-size: cover;
+}
+.clubsK {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/king_of_clubs.png");
+    background-size: cover;
+}
+.diamondsA {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/ace_of_diamonds.png");
+    background-size: cover;
+}
+.diamonds2 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/2_of_diamonds.png");
+    background-size: cover;
+}
+.diamonds3 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/3_of_diamonds.png");
+    background-size: cover;
+}
+.diamonds4 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/4_of_diamonds.png");
+    background-size: cover;
+}
+.diamonds5 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/5_of_diamonds.png");
+    background-size: cover;
+}
+.diamonds6 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/6_of_diamonds.png");
+    background-size: cover;
+}
+.diamonds7 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/7_of_diamonds.png");
+    background-size: cover;
+}
+.diamonds8 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/8_of_diamonds.png");
+    background-size: cover;
+}
+.diamonds9 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/9_of_diamonds.png");
+    background-size: cover;
+}
+.diamonds10 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/10_of_diamonds.png");
+    background-size: cover;
+}
+.diamondsJ {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/jack_of_diamonds.png");
+    background-size: cover;
+}
+.diamondsD {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/queen_of_diamonds.png");
+    background-size: cover;
+}
+.diamondsK {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/king_of_diamonds.png");
+    background-size: cover;
+}
+.heartsA {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/ace_of_hearts.png");
+    background-size: cover;
+}
+.hearts2 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/2_of_hearts.png");
+    background-size: cover;
+}
+.hearts3 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/3_of_hearts.png");
+    background-size: cover;
+}
+.hearts4 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/4_of_hearts.png");
+    background-size: cover;
+}
+.hearts5 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/5_of_hearts.png");
+    background-size: cover;
+}
+.hearts6 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/6_of_hearts.png");
+    background-size: cover;
+}
+.hearts7 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/7_of_hearts.png");
+    background-size: cover;
+}
+.hearts8 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/8_of_hearts.png");
+    background-size: cover;
+}
+.hearts9 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/9_of_hearts.png");
+    background-size: cover;
+}
+.hearts10 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/10_of_hearts.png");
+    background-size: cover;
+}
+.heartsJ {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/jack_of_hearts.png");
+    background-size: cover;
+}
+.heartsD {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/queen_of_hearts.png");
+    background-size: cover;
+}
+.heartsK {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/king_of_hearts.png");
+    background-size: cover;
+}
+.spadesA {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/ace_of_spades.png");
+    background-size: cover;
+}
+.spades2 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/2_of_spades.png");
+    background-size: cover;
+}
+.spades3 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/3_of_spades.png");
+    background-size: cover;
+}
+.spades4 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/4_of_spades.png");
+    background-size: cover;
+}
+.spades5 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/5_of_spades.png");
+    background-size: cover;
+}
+.spades6 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/6_of_spades.png");
+    background-size: cover;
+}
+.spades7 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/7_of_spades.png");
+    background-size: cover;
+}
+.spades8 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/8_of_spades.png");
+    background-size: cover;
+}
+.spades9 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/9_of_spades.png");
+    background-size: cover;
+}
+.spades10 {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/10_of_spades.png");
+    background-size: cover;
+}
+.spadesJ {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/jack_of_spades.png");
+    background-size: cover;
+}
+.spadesD {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/queen_of_spades.png");
+    background-size: cover;
+}
+.spadesK {
+    height: 185px;
+    width: 125px;
+    background-image: url("/cards/king_of_spades.png");
+    background-size: cover;
+}
